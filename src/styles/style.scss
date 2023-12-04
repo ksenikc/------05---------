@@ -4,8 +4,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
-    width: 1280px;
 }
 
 .header {
@@ -121,7 +119,7 @@ body {
             margin-left: 83px;
             margin-top: 23px;
 
-             p {
+            p {
                 margin: 0;
                 margin-top: 10px;
                 padding: 0;
@@ -136,6 +134,7 @@ body {
         margin-left: 160px;
         font-size: 24px;
         display: flex;
+
         .custom-made-furniture_one {
             color: #F05310;
             font-weight: 700;
@@ -160,21 +159,61 @@ body {
             border-radius: 80px;
             margin-left: 10px;
             text-align: center;
-                 p {
-                    font-size: 24px;
-                    margin: 0;
-                    padding-top: 25px;
-                }
-                span {
-                    font-size: 15px;
-                    padding-top: 5px;
-                }
+
+            p {
+                font-size: 24px;
+                margin: 0;
+                padding-top: 25px;
+            }
+
+            span {
+                font-size: 15px;
+                padding-top: 5px;
+            }
         }
+
         .custom-made-furniture__advantages {
             font-weight: 700;
             font-size: 14px;
-            margin-left:82px;
+            margin-left: 82px;
             margin-top: 10px;
+        }
+    }
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+
+    .partners {
+        text-align: center;
+        background-image: url(/src/img/bg_partners\ 1.png);
+        width: 100%;
+
+        p.partners_text {
+            font-size: 32px;
+            font-weight: 700;
+            text-shadow: 1px 1px 4px rgb(71, 71, 71);
+        }
+
+        .partners_blocks {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .partners_block {
+                p {
+                    font-size: 32px;
+                    font-weight: 700;
+                }
+
+                li {
+                    font-size: 36px;
+                    font-weight: 400;
+                    list-style-type: none;
+                }
+            }
+
         }
     }
 }

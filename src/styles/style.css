@@ -4,8 +4,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
-  width: 1280px;
 }
 
 .header {
@@ -155,4 +153,33 @@ body {
   font-size: 14px;
   margin-left: 82px;
   margin-top: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  align-items: center;
+}
+.container .partners {
+  text-align: center;
+  background-image: url(/src/img/bg_partners\ 1.png);
+  width: 100%;
+}
+.container .partners p.partners_text {
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 1px 1px 4px rgb(71, 71, 71);
+}
+.container .partners .partners_blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .partners .partners_blocks .partners_block p {
+  font-size: 32px;
+  font-weight: 700;
+}
+.container .partners .partners_blocks .partners_block li {
+  font-size: 36px;
+  font-weight: 400;
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
