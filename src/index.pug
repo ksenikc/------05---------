@@ -1,0 +1,26 @@
+- var docName = "Furniture"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles/style.css")
+        title= docName
+
+    body         
+        include modules/header
+        .container
+            .main-menu 
+                ul 
+                    li.main-menu__nav-item  
+                        a(href="") Каталог 
+                    li.main-menu__nav-item  
+                        a(href="")  Доставка и заказ
+                    li.main-menu__nav-item    
+                        a(href="")  Контакты
+                    li.main-menu__nav-item    
+                        a(href="")  Уход за мебелью
+                    li.main-menu__nav-item    
+                        a(href="")  Вакансии
