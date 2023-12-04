@@ -1,6 +1,6 @@
 body {
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -203,8 +203,9 @@ body {
 
             .partners_block {
                 p {
-                    font-size: 32px;
+                    font-size: 36px;
                     font-weight: 700;
+                    margin: 0;
                 }
 
                 li {
@@ -215,4 +216,118 @@ body {
             }
         }
     }
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+
+    .reference-information {
+        text-align: center;
+
+        p.reference-information_text {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 40px;
+            font-weight: 700;
+            margin-left: 400px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: left;
+            margin-left: 196px;
+            width: 983px;
+        }
+    }
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+
+    .furniture-care {
+        text-align: center;
+
+        p.furniture-care_text {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .furniture-care_block {
+            display: flex;
+            margin-left: 86px;
+
+            .furniture-care_block_elem {
+                width: 243px;
+                height: 80px;
+                border-radius: 10px;
+                border: 1px solid #000;
+                background: #FFF;
+                margin-right: 50px;
+                color: #000;
+                font-size: 14px;
+                font-weight: 400;
+
+                span.furniture-care_block_elem--orange {
+                    color: #F05310;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+
+    .vacancies {
+        text-align: center;
+
+        p.vacancies_text {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .vacancies_block {
+            display: flex;
+            
+        }
+
+        .vacancies_block_elem {
+            border: 1px solid black;
+            width: 540px;
+            height: 287px;
+            margin-right: 30px;
+            p {
+                font-size: 32px;
+                font-weight: 700;
+
+            }
+
+            img {
+                float: left;
+                width: 235px;
+                height: 132px;
+                padding-left: 12px;
+            }
+
+            li {
+                float: right;
+                width: 251px;
+                text-align: left;
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+.container {
+    margin: 0 auto;
+    align-items: center;
 }
