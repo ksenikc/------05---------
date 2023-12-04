@@ -10,15 +10,18 @@ body {
 .header {
     background-color: #F1F1F1;
     height: 77px;
+
     .header-wrapper {
         margin: 0 auto;
         width: 1280px;
         display: flex;
         align-items: center;
+
         .header__calls {
             display: flex;
-          padding-left: 54px;
-          padding-right: 70px;
+            padding-left: 54px;
+            padding-right: 70px;
+
             .header_calls_ul {
                 margin: 0;
                 padding: 0;
@@ -26,34 +29,41 @@ body {
                 margin-right: 54px;
             }
         }
+
         .header__logo_img {
             margin-left: 159px;
             margin-right: 40px;
         }
+
         .header_line {
             height: 61px;
             padding-top: 7px;
             padding-left: 20px;
             padding-right: 0px;
         }
+
         .header_list {
             list-style: none;
             margin-bottom: 7px;
             padding: 0;
             margin-left: 0;
         }
+
         .header__location {
             display: flex;
+
             .header_location_ul {
                 padding: 2px;
                 margin-right: 83px;
-                }
+            }
+
             .header__location_img {
                 width: 44px;
                 height: 42px;
                 padding-top: 13px;
             }
         }
+
         .header__contact {
             display: flex;
             margin-left: 66px;
@@ -66,14 +76,50 @@ body {
     width: 1280px;
     display: flex;
     align-items: center;
+
+    .main-menu {
+        border-bottom: 1px solid #E12E2E;
+        margin: 0 auto;
+        margin-top: 27px;
+    }
+
     .main-menu ul {
         display: flex;
-        
     }
-    .main-menu__nav-item {
+
+    .main-menu__nav-item a {
         color: black;
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .main-menu__nav-item {
         list-style-type: none;
+        padding-right: 70px;
+    }
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    .services_block {
+        margin-right: 83px;
+        font-size: 13px;
+        display: flex;
+        margin-left: 230px;
+        .services__block_elem  {
+            text-align: center;
+            width: 110px;
+            height: 59px;
+            border-radius: 10px;
+            border: 1px solid #E12E2E;
+            margin-left: 83px;
+            margin-top: 23px;
+            .services__block_elem p {
+                margin: 0;
+                padding: 0;
+            }
+        }
     }
 }
