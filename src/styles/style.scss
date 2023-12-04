@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    border: 1px solid black;
+    width: 1280px;
 }
 
 .header {
@@ -98,17 +99,20 @@ body {
         padding-right: 70px;
     }
 }
+
 .container {
     margin: 0 auto;
     width: 1280px;
     display: flex;
     align-items: center;
+
     .services_block {
         margin-right: 83px;
         font-size: 13px;
         display: flex;
         margin-left: 230px;
-        .services__block_elem  {
+
+        .services__block_elem {
             text-align: center;
             width: 110px;
             height: 59px;
@@ -116,10 +120,61 @@ body {
             border: 1px solid #E12E2E;
             margin-left: 83px;
             margin-top: 23px;
-            .services__block_elem p {
+
+             p {
                 margin: 0;
+                margin-top: 10px;
                 padding: 0;
             }
+        }
+    }
+}
+
+.container {
+    .custom-made-furniture {
+        margin-top: 101px;
+        margin-left: 160px;
+        font-size: 24px;
+        display: flex;
+        .custom-made-furniture_one {
+            color: #F05310;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+
+        p.custom-made-furniture_two {
+            font-weight: 700;
+            margin-left: 20px;
+        }
+
+        p.custom-made-furniture_three {
+            font-weight: 700;
+            text-shadow: 1px 1px 4px rgb(71, 71, 71);
+        }
+
+        .custom-made-furniture__square {
+            background-color: #F05310;
+            color: #fff;
+            width: 110px;
+            height: 110px;
+            border-radius: 80px;
+            margin-left: 10px;
+            text-align: center;
+                 p {
+                    font-size: 24px;
+                    margin: 0;
+                    padding-top: 25px;
+                }
+                span {
+                    font-size: 15px;
+                    padding-top: 5px;
+                }
+        }
+        .custom-made-furniture__advantages {
+            font-weight: 700;
+            font-size: 14px;
+            margin-left:82px;
+            margin-top: 10px;
         }
     }
 }
