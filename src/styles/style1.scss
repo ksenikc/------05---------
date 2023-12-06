@@ -1,0 +1,194 @@
+/*ГЛАВНАЯ*/
+@media (min-width:768px) and (max-width:1024px) {
+
+    .container {
+        width: 1000px;
+
+        .main-menu {
+            margin-top: 33px;
+            margin-left: 73px;
+        }
+
+        .main-menu ul {
+            display: flex;
+            padding: 0;
+            margin-left: 0;
+        }
+
+        .main-menu__nav-item {
+            list-style-type: none;
+            padding-right: 90px;
+        }
+    }
+
+    .header {
+        width: 1024px;
+
+        .header__logo {
+            width: 74.12px;
+            height: 68px;
+            margin-right: 60px;
+            margin-left: 0px;
+        }
+
+        .header__calls {
+            margin-left: 130px;
+        }
+    }
+
+    .header_list {
+        margin-left: 0;
+    }
+
+    .header__location_img {
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .header__contact {
+        margin: 0;
+    }
+
+    ul.header_contact_ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+
+        .services_block {
+            margin-left: 80px;
+        }
+    }
+
+    .container {
+        .custom-made-furniture {
+            margin-top: 59px;
+            margin-left: 85px;
+            font-size: 24px;
+            display: flex;
+
+            .custom-made-furniture_one {
+                color: #F05310;
+                font-weight: 700;
+                margin-left: 10px;
+            }
+
+            p.custom-made-furniture_two {
+                font-weight: 700;
+                margin-left: 20px;
+            }
+
+            p.custom-made-furniture_three {
+                font-weight: 700;
+                text-shadow: 1px 1px 4px rgb(71, 71, 71);
+            }
+
+            .custom-made-furniture__square {
+                background-color: #F05310;
+                color: #fff;
+                width: 110px;
+                height: 110px;
+                border-radius: 80px;
+                margin-left: 10px;
+                text-align: center;
+
+                p {
+                    font-size: 24px;
+                    margin: 0;
+                    padding-top: 25px;
+                }
+
+                span {
+                    font-size: 15px;
+                    padding-top: 5px;
+                }
+            }
+
+            .custom-made-furniture__advantages {
+                font-weight: 700;
+                font-size: 14px;
+                margin-left: 82px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .container {
+        .partners {
+            margin-top: 105px;
+        }
+    }
+
+    .container {
+        .reference-information {
+            p.reference-information_text {
+                margin-left: 250px;
+            }
+        }
+    }
+
+    .container {
+        margin: 0 auto;
+        align-items: center;
+
+        section.furniture-care {
+            p.furniture-care_text {
+                margin-left: 0px;
+            }
+
+            .furniture-care_block {
+                display: flex;
+                flex-wrap: wrap;
+
+                .furniture-care_block_elem {
+                    margin-left: 66px;
+                    margin-bottom: 42px;
+                }
+            }
+        }
+
+    }
+
+    .container {
+        .vacancies {
+            .vacancies_block {
+                display: flex;
+                flex-wrap: wrap;
+
+                .vacancies_block_elem {
+                    margin-left: 200px;
+                    margin-bottom: 42px;
+                }
+            }
+        }
+    }
+
+    .container {
+        .contact {
+            iframe {
+                width: 500px;
+                height: 263px;
+            }
+
+            .contact_block {
+                height: 263px;
+                margin-left: 26px;
+            }
+        }
+    }
+
+    .footer {
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-top: 86px;
+        .footer_text {
+            text-align: left;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 35px;
+        }
+    }
+}

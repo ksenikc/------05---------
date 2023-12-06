@@ -11,6 +11,12 @@ body {
   background-color: #F1F1F1;
   height: 77px;
 }
+.header .burger-menu {
+  display: none;
+  width: 28px;
+  height: 28px;
+  float: right;
+}
 .header .header-wrapper {
   margin: 0 auto;
   width: 1280px;
@@ -31,12 +37,6 @@ body {
 .header .header-wrapper .header__logo_img {
   margin-left: 159px;
   margin-right: 40px;
-}
-.header .header-wrapper .header_line {
-  height: 61px;
-  padding-top: 7px;
-  padding-left: 20px;
-  padding-right: 0px;
 }
 .header .header-wrapper .header_list {
   list-style: none;
@@ -71,6 +71,7 @@ body {
   border-bottom: 1px solid #E12E2E;
   margin: 0 auto;
   margin-top: 27px;
+  margin-left: 10px;
 }
 .container .main-menu ul {
   display: flex;
@@ -113,23 +114,21 @@ body {
 }
 
 .container .custom-made-furniture {
-  margin-top: 101px;
-  margin-left: 160px;
+  margin: 0 auto;
   font-size: 24px;
   display: flex;
 }
 .container .custom-made-furniture .custom-made-furniture_one {
-  color: #F05310;
-  font-weight: 700;
   margin-left: 10px;
+  margin-bottom: 5px;
 }
 .container .custom-made-furniture p.custom-made-furniture_two {
-  font-weight: 700;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-bottom: 5px;
 }
 .container .custom-made-furniture p.custom-made-furniture_three {
-  font-weight: 700;
-  text-shadow: 1px 1px 4px rgb(71, 71, 71);
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 .container .custom-made-furniture .custom-made-furniture__square {
   background-color: #F05310;
@@ -139,14 +138,17 @@ body {
   border-radius: 80px;
   margin-left: 10px;
   text-align: center;
+  margin-top: 0px;
 }
 .container .custom-made-furniture .custom-made-furniture__square p {
   font-size: 24px;
   margin: 0;
   padding-top: 25px;
+  font-weight: 700;
 }
 .container .custom-made-furniture .custom-made-furniture__square span {
   font-size: 15px;
+  font-weight: 700;
   padding-top: 5px;
 }
 .container .custom-made-furniture .custom-made-furniture__advantages {
@@ -162,7 +164,7 @@ body {
 }
 .container .partners {
   text-align: center;
-  background-image: url(/src/img/bg_partners\ 1.png);
+  background-image: url(/img/bg_partners\ 1.png);
   width: 100%;
 }
 .container .partners p.partners_text {
@@ -318,7 +320,7 @@ body {
 .footer {
   background-color: #F1F1F1;
   height: 218px;
-  margin-top: 81px;
+  margin-top: 86px;
 }
 .footer .footer-wrapper {
   margin: 0 auto;
@@ -499,4 +501,137 @@ body {
   text-align: center;
   margin-left: 0;
   padding-top: 5px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  align-items: center;
+}
+.container h1 {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 72px;
+  margin-left: 100px;
+}
+.container ul.terms-of-delivery_text {
+  margin-top: 33px;
+}
+.container li.terms-of-delivery_text {
+  font-size: 26px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.container h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 60px;
+}
+.container .order_date {
+  display: flex;
+}
+.container .order_date input {
+  width: 224px;
+  height: 32px;
+  margin-top: 25px;
+  margin-left: 125px;
+}
+.container .order_adress {
+  display: flex;
+}
+.container .order_adress input {
+  width: 601px;
+  height: 32px;
+  margin-top: 25px;
+  margin-left: 116px;
+}
+.container .order_FIO {
+  display: flex;
+}
+.container .order_FIO input {
+  width: 601px;
+  height: 32px;
+  margin-top: 25px;
+  margin-left: 125px;
+}
+.container .order_number {
+  display: flex;
+}
+.container .order_number input {
+  width: 601px;
+  height: 32px;
+  margin-top: 25px;
+  margin-left: 79px;
+}
+.container .order_product {
+  display: flex;
+}
+.container .order_product input {
+  width: 601px;
+  height: 32px;
+  margin-top: 25px;
+  margin-left: 91px;
+}
+.container .order_pay {
+  display: flex;
+}
+.container .order_pay .order_pay_one {
+  display: flex;
+}
+.container .order_pay .order_pay_one img {
+  width: 24px;
+  height: 24px;
+  margin-top: 33px;
+  margin-left: 38px;
+}
+.container .order_pay .order_pay_one p {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+  margin-top: 27px;
+}
+.container .order_pay .order_pay_two {
+  display: flex;
+}
+.container .order_pay .order_pay_two img {
+  width: 24px;
+  height: 24px;
+  margin-top: 33px;
+  margin-left: 90px;
+}
+.container .order_pay .order_pay_two p {
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 7px;
+  margin-top: 27px;
+}
+.container .order_send button {
+  width: 237px;
+  height: 57px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #D6D2D2;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  float: right;
+  margin-left: 800px;
 }/*# sourceMappingURL=style.css.map */
