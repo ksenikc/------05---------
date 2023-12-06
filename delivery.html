@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Catalog</title>
+    <title>Delivery</title>
   </head>
-  <body>        
+  <body> 
     <header> 
       <div class="header">
         <div class="header-wrapper"> 
@@ -45,89 +45,73 @@
         </ul>
       </div>
     </div>
-    <div class="container"> 
-      <div class="button"> <img src="./img/prod_catalog_button.png" alt="">
-        <li>Выберите категорию</li>
-      </div>
+    <div class="container">       
+      <section class="services">
+        <div class="services_block">
+          <div class="services__block_elem"> 
+            <p>Бесплатная и быстрая доставка</p>
+          </div>
+          <div class="services__block_elem"> 
+            <p>Бесплатный подъем и сборка мебели</p>
+          </div>
+          <div class="services__block_elem"> 
+            <p>Бесплатный вывоз мусора</p>
+          </div>
+          <div class="services__block_elem"> 
+            <p>Бесплатное обслуживание по гарантии</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <section class="terms-of-delivery">
+        <h1>Условия доставки</h1>
+        <ul class="terms-of-delivery_text">
+          <li class="terms-of-delivery_text">Доставка курьером по Москве и Московской области </li>
+          <li class="terms-of-delivery_text">Стоимость доставки по Москве в пределах МКАД - 300 руб.</li>
+          <li class="terms-of-delivery_text">При заказе на сумму от 15000 руб. - доставка осуществляется бесплатно в пределах МКАД.</li>
+          <li class="terms-of-delivery_text">За МКАД до 25 км - 600 руб. </li>
+          <li class="terms-of-delivery_text">Доставка осуществляется Пн. - Сб.: с 10:00 до 20:00 </li>
+          <li class="terms-of-delivery_text">Заказы оформленные до 17:00 и оплаченные вперед могут быть доставлены день в день.</li>
+        </ul>
+      </section>
     </div>
     <div class="container"> 
-      <div class="categories">
-        <div class="categories_block"> <img src="./img/prod_categories_one.png" alt="">
-          <p>Кухонная мебель</p>
+      <section class="order">
+        <h1>Ваш заказ и доставка</h1>
+        <div class="order_date">
+          <h2>Дата:</h2>
+          <input type="date">
         </div>
-        <div class="categories_block"> <img src="./img/prod_categories_two.png" alt="">
-          <p>Офисная мебель</p>
+        <div class="order_adress">
+          <h2>Адрес:</h2>
+          <input type="text">
         </div>
-        <div class="categories_block"> <img src="./img/prod_categories_three.png" alt="">
-          <p>Спальня</p>
+        <div class="order_FIO">
+          <h2>ФИО: </h2>
+          <input type="text">
         </div>
-        <div class="categories_block"> <img src="./img/prod_categories_four.png" alt="">
-          <p>Ванная комната</p>
+        <div class="order_number">
+          <h2>Телефон:</h2>
+          <input type="text">
         </div>
-      </div>
-    </div>
-    <div class="container"> 
-      <div class="sale"> 
-        <p class="sale_text">Распродажа</p>
-        <div class="sale_block"> 
-          <div class="sale_block_elem"> <img src="./img/prod_sale1.png" alt="">
-            <p>КУХНЯ СЕРРА</p>
-            <li>55 200 ₽ </li><span>64 900 ₽</span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
+        <div class="order_product">
+          <h2>Товары:</h2>
+          <input type="text">
+        </div>
+        <div class="order_pay">  
+          <div class="order_pay_one"> 
+            <h2>Способ оплаты:</h2><img src="../img/prod_pay_check.png" alt="">
+            <p>Наличные</p>
           </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale2.png" alt="">
-            <p>КУХНЯ ФОРЕСТО</p>
-            <li>86 400 ₽     </li><span>102 900 ₽</span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
-          </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale3.png" alt="">
-            <p>Офисная мебель СМАРТ</p>
-            <li>15 000 ₽ </li><span>30 000 ₽</span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
-          </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale4.png" alt="">
-            <p>Офисная мебель Comfort</p>
-            <li>15 000 ₽ </li><span>30 000 ₽</span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
-          </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale5.png" alt="">
-            <p>Спальня Гарда BMS</p>
-            <li>45 320 ₽      </li><span>89 180 ₽ </span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
-          </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale6.png" alt="">
-            <p>Спальня Бася Сура 1 BMS</p>
-            <li>51 896 ₽      </li><span>56 170 ₽</span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
-          </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale7.png" alt="">
-            <p> Ванная Несси 4 BMS</p>
-            <li>35 390 ₽      </li><span>42 970 ₽ </span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
-          </div>
-          <div class="sale_block_elem"> <img src="./img/prod_sale8.png" alt="">
-            <p> Акватон Бекка Pro 70</p>
-            <li>18 500 ₽ </li><span>22 170 ₽</span>
-            <div class="button_sale"> 
-              <p>В корзину</p>
-            </div>
+          <div class="order_pay_two">    <img src="../img/prod_pay_check.png" alt="">
+            <p>Карта</p>
           </div>
         </div>
-      </div>
+        <div class="order_send"> 
+          <button> Отправить</button>
+        </div>
+      </section>
     </div>
     <footer> 
       <div class="footer"> 
